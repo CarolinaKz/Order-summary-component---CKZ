@@ -12,7 +12,7 @@ body {
     background-repeat: no-repeat;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 450px) {
     body {
         background-image: url("../images/pattern-background-mobile.svg");
     }
@@ -22,7 +22,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    height: 95vh;
 }
 
 .container {
@@ -43,7 +43,7 @@ body {
     border-top-right-radius: 15px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 450px) {
     .container {
         width: 350px;
         height: 550px;
@@ -112,7 +112,7 @@ body {
 
 .button-1 {
     width: 300px;
-    height: 45px;
+    height: 50px;
     margin: 30px;
     border-radius: 10px;
     border-style: none;
@@ -144,6 +144,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    height: 10vh;
+    height: 5vh;
     font-size: 13px;
 }
